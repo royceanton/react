@@ -1,0 +1,43 @@
+.h1{
+    color: gainsboro;
+    /* color: red;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 5px #FF0000;
+    background-color: #FFFF00;
+    padding: 20px;
+    border: 2px solid #0000FF;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #000000;
+    transition: all 0.5s; */
+}
+
+.button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1em;
+    margin: 1rem 0.5rem;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #7c43e5;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  .button:hover {
+    background-color: #5910df;
+    border-color: #5910df;
+  }
+  .button:focus,
+  .button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }

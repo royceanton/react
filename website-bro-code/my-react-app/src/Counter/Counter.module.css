@@ -1,0 +1,32 @@
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1em;
+  margin: 1rem 0.5rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #eb5858;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button:hover {
+  background-color: #b30000;
+  border-color: #b30000;
+}
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.counterApp{
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.count{
+  font-size: 2em;
+  margin-bottom: 1rem;
+  text-align: center;
+}
