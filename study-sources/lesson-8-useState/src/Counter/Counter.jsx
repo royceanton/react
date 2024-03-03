@@ -19,12 +19,14 @@ function Counter() {
     }
 
     return (
-        <div >
+        <div className={styles.counterContainer}>
             <h1 className={styles.counterApp}>Counter App</h1>
-            <p className={styles.count}>Count: {count}</p>
-            <button className={styles.button} onClick={increment}>Increment</button>
-            <button className={styles.button} onClick={decrement}>Decrement</button>
-            <button className={styles.button} onClick={reset}>Reset</button>
+            <p className={styles.count}>{count}</p>
+            <div className={styles.buttonContainer}>
+                <button className={styles.button} onClick={increment}>Increment</button>
+                <button className={styles.button} onClick={decrement}>Decrement</button>
+                <button className={styles.button} onClick={reset}>Reset</button>
+            </div>
         </div>
     );
 
