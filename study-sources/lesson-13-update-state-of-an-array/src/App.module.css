@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.container > * {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 600px; /* or any other value that suits your needs */
+    box-sizing: border-box;
+  }

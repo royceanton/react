@@ -23,7 +23,7 @@ function MyComponent() {
 
   return (
     <div>
-      <h2>Current list of Foods added to the list :</h2>
+      <h2>Current list of Foods</h2>
       <ul>
         {foods.map((food, index) => (
           <li key={index} onClick={() => handleRemoveFood(index)}>
@@ -32,12 +32,12 @@ function MyComponent() {
         ))}
       </ul>
 
-      <input className={styles.inputBar} type="text" id="foodInput" placeholder="Enter food name" />
-      <button className={styles.button} onClick={handleAddFood}>Add Food</button>
+      <input type="text" id="foodInput" placeholder="Enter food name" />
+      <button onClick={handleAddFood}>Add Food</button>
       <p>
         Your current favourite foods are: {foods[0]} {foods[1]} {foods[2]}
+        If you want to remove a food, click on it.
       </p>
-      <p>If you want to remove a food, click on it.</p>
     </div>
   );
 }

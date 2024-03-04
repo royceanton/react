@@ -48,15 +48,3 @@
   letter-spacing: 1px;
   transition: all 0.5s;
 }
-
-.inputBar {
-  padding: 0.5em 1em;
-  margin: 1rem 0.5rem;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  border-radius: 8px;
-  border: 1px solid #7c43e5;
-  background-color: #302f2f;
-  transition: border-color 0.25s;
-}
