@@ -22,19 +22,16 @@ async function getRecipes(): Promise<Recipe[]> {
   return result.json();
 }
 
-export default function Home() {
-  // const recipes = getRecipes();
-  const [recipes, setRecipes] = useState<Recipe[]>([]);
-  useEffect(() => {
-    getRecipes().then((data) => setRecipes(data));
-  }, []);
-
+export default async function Home() {
+  const recipes = await getRecipes();
+  
   return (
     <main>
       <div className="grid grid-cols-3 gap-8">
         {recipes.map((recipe) => (
-          <Card key={recipe.id}>
-            <CardHeader>
+          <Card key={recipe.id} className="flex flex-col justify-between">
+            <CardHeader className="flex-row gap-4 items-center">
+              {/* avatar */}
               <div>
                 <CardTitle>{recipe.title}</CardTitle>
                 <CardDescription>{recipe.time} mins to cook</CardDescription>
@@ -43,7 +40,7 @@ export default function Home() {
             <CardContent>
               <p>{recipe.description}</p>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex justify-between">
               <button>View Recipe</button>
               {recipe.vegan && <p>Vegan</p>}
             </CardFooter>
