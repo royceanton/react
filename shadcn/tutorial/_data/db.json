@@ -1,0 +1,84 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Carbonara",
+      "image": "veggies_carbonara.jpg",
+      "time": 20,
+      "description": "A vegetarian version of the classic carbonara pasta dish.",
+      "vegan": false
+    },
+    {
+      "id": "2",
+      "title": "Vegan Carbonara",
+      "image": "vegan_carbonara.jpg",
+      "time": 20,
+      "description": "A vegan version of the classic carbonara pasta dish.",
+      "vegan": true
+    },
+    {
+      "id": "3",
+      "title": "Spaghetti Bolognese",
+      "image": "spaghetti_bolognese.jpg",
+      "time": 30,
+      "description": "A classic spaghetti bolognese recipe.",
+      "vegan": false
+    },
+    {
+      "id": "4",
+      "title": "Vegan Bolognese",
+      "image": "vegan_bolognese.jpg",
+      "time": 30,
+      "description": "A vegan version of the classic spaghetti bolognese recipe.",
+      "vegan": true
+    },
+    {
+      "id": "5",
+      "title": "Pasta Pesto",
+      "image": "pasta_pesto.jpg",
+      "time": 15,
+      "description": "A classic pasta pesto recipe.",
+      "vegan": true
+    },
+    {
+      "id": "6",
+      "title": "Pasta Alfredo",
+      "image": "pasta_alfredo.jpg",
+      "time": 20,
+      "description": "A classic pasta alfredo recipe.",
+      "vegan": false
+    },
+    {
+      "id": "7",
+      "title": "Vegan Alfredo",
+      "image": "vegan_alfredo.jpg",
+      "time": 20,
+      "description": "A vegan version of the classic pasta alfredo recipe.",
+      "vegan": true
+    },
+    {
+      "id": "8",
+      "title": "Pasta Arrabbiata",
+      "image": "pasta_arrabbiata.jpg",
+      "time": 15,
+      "description": "A classic pasta arrabbiata recipe.",
+      "vegan": true
+    },
+    {
+      "id": "9",
+      "title": "Pasta Puttanesca",
+      "image": "pasta_puttanesca.jpg",
+      "time": 15,
+      "description": "A classic pasta puttanesca recipe.",
+      "vegan": true
+    },
+    {
+      "id": "10",
+      "title": "Pasta Aglio e Olio",
+      "image": "pasta_aglio_e_olio.jpg",
+      "time": 15,
+      "description": "A classic pasta aglio e olio recipe.",
+      "vegan": true
+    }
+  ]
+}
